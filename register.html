@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang = "en" >
+  <head>
+		<meta charset="utf-8">
+		<title> Registration</title>
+		<link rel="stylesheet" type="text/css" href="CSS/register.css">
+		<script type="text/javascript" src = "time.js" ></script>
+		<script type="text/javascript" src = "register.js" ></script>
+		
+  </head>
+  <body onload="validate()">
+  
+ 
+<!--________________TOP BANNER_________________________________-->
+
+
+	<div id = "topBanner">
+	<img src="images/logo.jpg" alt="Logo" style="width:180px;height:145px;">
+	<h1>Welcome to Vintage Shop</h1>
+	<div id="date"> </div>
+	<script>document.getElementById("date").innerHTML = getCurrentDate();</script>
+	<div id="time"> </div>
+	</div>
+	
+	
+<!--________________SIDE MENU__________________________________-->
+	
+	<div class = "sideMenu">
+	<ul id = "nav">
+		<li><a href = "VintageStore.html">Home</a></li>
+		<li><a href = "#furniture">Furniture</a></li>
+		<li><a href = "#decoration">Decoration</a></li>
+		<li><a href = "#clothes">Clothes</a></li>
+		<li><a href = "#myCart">My Cart</a></li>
+		<li><a href = "#checkout">Checkout</a></li>
+		<li><a href = "register.html">Register</a></li>
+	</ul>
+	</div>
+	
+<!--________________INSIDE CONTENT_____________________________-->
+	
+	<div class = "insideContent">
+	<h2> Registration/Sign-Up</h2>
+	<form action="" name="registrationForm" onsubmit="return(validateForm());">
+    <table cellspacing="3" cellpadding="3" border="1">
+
+            <tr>
+               <td align="left">First Name:</td>
+               <td><input type="text" name="firstName" /></td>
+            </tr>
+            <tr>
+               <td align="left">Last Name:</td>
+               <td><input type="text" name="lastName" /></td>
+            </tr>
+            <tr>
+               <td align="left">E-mail:</td>
+               <td><input type="text" name="eMail" /></td>
+            </tr>
+            
+            <tr>
+               <td align="left">Phone Number:</td>
+               <td><input type="text" name="phoneNumber" /></td>
+            </tr>
+            
+           <tr>
+               <td align="left">Password:</td>
+               <td><input type="text" name="pwrd" /></td>
+            </tr>
+            
+            <tr>
+               <td align="left">Confirm Password:</td>
+               <td><input type="text" name="confirmPwrd" /></td>
+            </tr>
+            
+            <tr>
+               <td align="left"></td>
+               <th><input type="submit" value="Submit" /></th>  
+            </tr>
+    </table>
+    </form> 
+	</div>
+	
+
+<!--________________BOTTOM BANNER______________________________-->
+	
+	<div class = "bottomBanner">
+	<address>
+		Contact us: <a href="mailto:info@vintagestore.com">info@vintagestore.com</a><br /> 
+		4050 Saint-Denis <br /> 
+		Montréal, Québec <br />
+		A1B 2C3
+	</address>
+	<p id="copyright"><small>&copy;2016 &nbsp; &nbsp; <span id = "vintage"> Vintage Store</span> &nbsp; &nbsp;All Rights Reserved.</small></p>
+	</div>
+  </body>
+</html>

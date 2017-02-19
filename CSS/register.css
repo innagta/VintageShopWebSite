@@ -1,0 +1,141 @@
+body {
+	width:500px;
+	height: 1000px;
+	position: absolute;
+	width: 100%;
+	margin: auto;
+	padding: 0;
+	background-color: #faf0e6;
+	font-family:  Georgia, "Times New Roman", Serif;
+	
+}
+
+#topBanner {
+	height: 145px;
+	width: 100%;
+	background-color:#778899;
+}
+
+.sideMenu {
+	position: absolute;
+	top: 145px;
+	width: 180px;
+	height:755px;
+	background-color: #dcdcdc;
+	
+	
+}
+
+.insideContent {
+	position: absolute;
+	top: 145px;
+	left: 200px;
+	height: 755px;
+	width: 1500;
+	
+	
+}
+
+.bottomBanner {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	bottom: 0;
+	height: 100px;
+	width: 100%;
+	background-color:#778899;
+	font-size: 0.8em;
+}
+
+div#time{ 
+position: absolute;
+top: 100px;
+left: 1100px;
+
+color:#2f4f4f; 
+display:inline;
+text-align: center;
+font-style: oblique;
+font-size: 1em;
+}
+
+div#date{ 
+position: absolute;
+top: 70px;
+left: 1100px;
+
+color:#2f4f4f; 
+display:inline;
+text-align: center;
+font-style: oblique;
+font-size: 1em;
+}
+
+h1 { 
+position: absolute;
+top: 15px;
+left: 350px;
+
+color:#2f4f4f; 
+display:inline;
+text-align: center;
+font-style: oblique;
+font-size: 3em;
+}
+
+
+ul#nav {
+	padding:5px;
+	text-decoration: none;
+	list-style-type: none;
+	font-size: 1.2em;
+	text-align: center;
+	
+}
+
+ul#nav > li{
+	
+	padding: 5px 5px;
+	margin: 15px 0;
+	border: 1px solid #000080;
+	border-radius: 5px;
+	box-sizing: border-box;
+	
+	
+}
+
+p#copyright {
+	text-align: center;
+}
+
+address {
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+span#vintage {
+	font-style: oblique;
+}
+
+h2 {
+	text-align: center;
+	font-style: oblique;
+}
+
+.sideMenu  a {
+    
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
