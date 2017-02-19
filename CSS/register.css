@@ -50,7 +50,7 @@ body {
 div#time{ 
 position: absolute;
 top: 100px;
-left: 1100px;
+left: 1200px;
 
 color:#2f4f4f; 
 display:inline;
@@ -62,7 +62,7 @@ font-size: 1em;
 div#date{ 
 position: absolute;
 top: 70px;
-left: 1100px;
+left: 1200px;
 
 color:#2f4f4f; 
 display:inline;
